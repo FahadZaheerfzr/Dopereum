@@ -33,7 +33,7 @@ export default function PuffPass() {
       </div>
 
       {/* Right half */}
-      <div className="lg:w-[55%] bg-gradient-to-b lg:bg-gradient-to-r from-mainGreen to-secondaryGreen p-20 lg:px-0 py-32 font-sans lg:h-full h-max relative overflow-y-visible overflow-x-clip text-center lg:text-left">
+      <div className="flex flex-col items-center justify-center lg:w-[55%] bg-gradient-to-b lg:bg-gradient-to-r from-mainGreen to-secondaryGreen px-10 lg:px-0 py-32 font-sans lg:h-full h-max relative overflow-y-visible overflow-x-clip text-center lg:text-left">
         <ReactSVG src={SvgLeaf3} className="lg:hidden block absolute left-10 -top-12 scale-125" />
         <h2 className="text-xl font-normal mb-4 uppercase hidden lg:block tracking-3.26">
         Enhanced shopping experience

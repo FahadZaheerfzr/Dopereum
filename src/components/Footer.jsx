@@ -20,7 +20,7 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className="py-3 pl-3 pr-36 rounded-xl  lg:rounded-r-none flex-grow-1 bg-black bg-opacity-10 placeholder-white  font-catamaran text-tiny focus:outline-none"
+              className="py-3 pl-3 w-[90%] lg:w-fit pr-36 rounded-xl  lg:rounded-r-none flex-grow-1 bg-black bg-opacity-10 placeholder-white  font-catamaran text-tiny focus:outline-none"
             />
             <button
               type="submit"
@@ -43,37 +43,37 @@ const Footer = () => {
         <div className="flex justify-center mb-8">
           <a
             href="#"
-            className="text-black text-4xl p-2 bg-white bg-opacity-20 mx-2 rounded-md"
+            className="text-black text-2xl sm:text-4xl p-2 bg-white bg-opacity-20 mx-2 rounded-md"
           >
             <FaTwitter />
           </a>
           <a
             href="#"
-            className="text-black text-4xl p-2 bg-white bg-opacity-20 mx-2 rounded-md"
+            className="text-black text-2xl sm:text-4xl p-2 bg-white bg-opacity-20 mx-2 rounded-md"
           >
             <FaFacebookF />
           </a>
           <a
             href="#"
-            className="text-black text-4xl p-2 bg-white bg-opacity-20 mx-2 rounded-md"
+            className="text-black text-2xl sm:text-4xl p-2 bg-white bg-opacity-20 mx-2 rounded-md"
           >
             <FaTelegramPlane />
           </a>
           <a
             href="#"
-            className="text-black text-4xl p-2 bg-white bg-opacity-20 mx-2 rounded-md"
+            className="text-black text-2xl sm:text-4xl p-2 bg-white bg-opacity-20 mx-2 rounded-md"
           >
             <FaYoutube />
           </a>
           <a
             href="#"
-            className="text-black text-4xl p-2 bg-white bg-opacity-20 mx-2 rounded-md"
+            className="text-black text-2xl sm:text-4xl p-2 bg-white bg-opacity-20 mx-2 rounded-md"
           >
             <FaTiktok />
           </a>
           <a
             href="#"
-            className="text-black text-4xl p-2 bg-white bg-opacity-20 mx-2 rounded-md"
+            className="text-black text-2xl sm:text-4xl p-2 bg-white bg-opacity-20 mx-2 rounded-md"
           >
             <FaDiscord />
           </a>

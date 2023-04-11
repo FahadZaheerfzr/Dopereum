@@ -41,49 +41,49 @@ export default function Header(props) {
       </div>
       <div className="text-center lg:flex hidden space-x-6">
         <p
-          className="uppercase hover:cursor-pointer"
+          className="uppercase hover:cursor-pointer tracking-1.5"
           onClick={() => handleScroll(AboutRef)}
         >
           About
         </p>
         <p
-          className="uppercase hover:cursor-pointer"
+          className="uppercase hover:cursor-pointer tracking-1.5"
           onClick={() => handleScroll(PassRef)}
         >
           NFT PUFF PASS
         </p>
         <p
-          className="uppercase hover:cursor-pointer"
+          className="uppercase hover:cursor-pointer tracking-1.5"
           onClick={() => handleScroll(LoyaltyRef)}
         >
           Loyalty Program
         </p>
         <p
-          className="uppercase hover:cursor-pointer"
+          className="uppercase hover:cursor-pointer tracking-1.5"
           onClick={() => handleScroll(TokenRef)}
         >
           Token
         </p>
         <p
-          className="uppercase hover:cursor-pointer"
+          className="uppercase hover:cursor-pointer tracking-1.5"
           onClick={() => handleScroll(NFTRef)}
         >
           NFT
         </p>
         <p
-          className="uppercase hover:cursor-pointer"
+          className="uppercase hover:cursor-pointer tracking-1.5"
           onClick={() => handleScroll(MissionRef)}
         >
           Mission and Goals
         </p>
         <p
-          className="uppercase hover:cursor-pointer"
+          className="uppercase hover:cursor-pointer tracking-1.5"
           onClick={() => handleScroll(RoadmapRef)}
         >
           Roadmap
         </p>
       </div>
-      <button className="text-right bg-gradient-to-r from-mainGreen to-secondaryGreen rounded-lg text-black font-blanka px-6 font-thin py-2 text-sm hidden lg:block">
+      <button className="text-right bg-gradient-to-r tracking-15% from-mainGreen to-secondaryGreen rounded-lg text-black font-blanka px-6 font-thin py-2 text-sm hidden lg:block">
         DAPP
       </button>
       <div className="lg:hidden">
@@ -101,52 +101,52 @@ export default function Header(props) {
             </div>
             <div className="mt-10">
               <p
-                className="uppercase hover:cursor-pointer p-4 px-10 hover:bg-white hover:bg-opacity-20"
+                className="uppercase hover:cursor-pointer p-4 px-10 hover:bg-white hover:bg-opacity-20 tracking-1.5"
                 onClick={() => handleScroll(AboutRef)}
               >
                 About
               </p>
               <p
-                className="uppercase hover:cursor-pointer p-4 px-10 hover:bg-white hover:bg-opacity-20"
+                className="uppercase hover:cursor-pointer p-4 px-10 hover:bg-white hover:bg-opacity-20 tracking-1.5"
                 onClick={() => handleScroll(PassRef)}
               >
                 NFT PUFF PASS
               </p>
               <p
-                className="uppercase hover:cursor-pointer p-4 px-10 hover:bg-white hover:bg-opacity-20"
+                className="uppercase hover:cursor-pointer p-4 px-10 hover:bg-white hover:bg-opacity-20 tracking-1.5"
                 onClick={() => handleScroll(LoyaltyRef)}
               >
                 Loyalty Program
               </p>
               <p
-                className="uppercase hover:cursor-pointer p-4 px-10 hover:bg-white hover:bg-opacity-20"
+                className="uppercase hover:cursor-pointer p-4 px-10 hover:bg-white hover:bg-opacity-20 tracking-1.5"
                 onClick={() => handleScroll(TokenRef)}
               >
                 Token
               </p>
               <p
-                className="uppercase hover:cursor-pointer p-4 px-10 hover:bg-white hover:bg-opacity-20"
+                className="uppercase hover:cursor-pointer p-4 px-10 hover:bg-white hover:bg-opacity-20 tracking-1.5"
                 onClick={() => handleScroll(NFTRef)}
               >
                 NFT
               </p>
               <p
-                className="uppercase hover:cursor-pointer p-4 px-10 hover:bg-white hover:bg-opacity-20"
+                className="uppercase hover:cursor-pointer p-4 px-10 hover:bg-white hover:bg-opacity-20 tracking-1.5"
                 onClick={() => handleScroll(MissionRef)}
               >
                 Mission and Goals
               </p>
               <p
-                className="uppercase hover:cursor-pointer p-4 px-10 hover:bg-white hover:bg-opacity-20"
+                className="uppercase hover:cursor-pointer p-4 px-10 hover:bg-white hover:bg-opacity-20 tracking-1.5"
                 onClick={() => handleScroll(RoadmapRef)}
               >
                 Roadmap
               </p>
               <div className="flex flex-col px-10 space-y-4 mt-10">
-                <button className="text-center bg-gradient-to-r from-mainGray to-secondaryGray rounded-lg text-white font-blanka px-6 font-thin py-2 text-base">
+                <button className="text-center bg-gradient-to-r tracking-15% from-mainGray to-secondaryGray rounded-lg text-white font-blanka px-6 font-thin py-2 text-base">
                   Whitepaper
                 </button>
-                <button className="text-center bg-gradient-to-r from-mainGreen to-secondaryGreen rounded-lg text-black font-blanka px-6 font-thin py-2 text-base">
+                <button className="text-center bg-gradient-to-r tracking-15% from-mainGreen to-secondaryGreen rounded-lg text-black font-blanka px-6 font-thin py-2 text-base">
                   DAPP
                 </button>
                 <div className="flex justify-center mb-8">

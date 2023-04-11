@@ -17,13 +17,13 @@ export default function Nft() {
 
       </div>
       {/* Left half */}
-      <div className="lg:w-7/12 bg-gradient-to-t lg:bg-gradient-to-r from-secondaryGreen to-mainGreen p-20 py-10 font-sans lg:h-screen relative">
+      <div className="lg:w-7/12 bg-gradient-to-t lg:bg-gradient-to-r from-secondaryGreen to-mainGreen p-20 py-10 font-sans lg:h-screen relative text-center lg:text-left" >
       <ReactSVG src={SvgLeaf3} className="lg:hidden block absolute left-10 -top-12 scale-125" />
 
-        <h1 className="xl:text-6xl tracking-[5.91176px] text-3.6xl font-bold mb-4 font-blanka uppercase lg:pt-0 pt-36">
+        <h1 className="xl:text-6xl tracking-2.5 lg:tracking-[5.91176px] text-3.6xl font-bold mb-4 font-blanka uppercase lg:pt-0 pt-36">
           Dopereum redeemable NFT{" "}
         </h1>
-        <p className="mb-6 2xl:text-tiny text-[#232323] lg:text-sm text-xs  font-normal ">
+        <p className="mb-6 xl:text-tiny text-[#232323] lg:text-sm text-xs  font-normal lg:w-[810px]">
           Dopereum's redeemable NFT logic provides a unique way to buy
           real-world items. NFTs can be redeemed for products through our
           partner grow shop, offering convenient access to premium goods while
@@ -42,7 +42,7 @@ export default function Nft() {
           our system to make it possible for users to pick up their purchases at
           selected shops, ensuring maximum privacy.
         </p>
-        <button className="lg:text-xl lg:mb-0 text-sm bg-gradient-to-r font-blanka text-white uppercase from-mainGray to-secondaryGray font-bold py-2 px-5 mb-36 rounded-lg tracking-widest">
+        <button className="lg:text-xl lg:mb-0 text-sm bg-gradient-to-r font-blanka text-white uppercase from-mainGray to-secondaryGray font-bold py-2 px-5 mb-36 rounded-lg tracking-15%">
           Redeem Nft
         </button>
         <ReactSVG src={SvgLeaf2} className="lg:hidden block absolute left-10 -bottom-14 scale-125" />

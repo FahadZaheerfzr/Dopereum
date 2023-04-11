@@ -7,7 +7,7 @@ export default function About() {
         <h1 className="lg:text-6xl text-4.5xl font-blanka font-bold UPPERCASE tracking-[7.09725px]">
           WElcome to doperium
         </h1>
-        <h2 className="lg:text-xl text-xs font-normal mb-8 mt-4">
+        <h2 className="lg:text-xl text-xs font-normal mb-8 mt-4 tracking-[3.26px]">
           Where your loyalty is rewarded!
         </h2>
         <p className=" mb-4 lg:text-tiny text-xs">
@@ -23,8 +23,8 @@ export default function About() {
             Unlock Exclusive Rewards with Dopereum's NFT PUFF PASS
           </p>
         </div>
-        <button className="bg-gradient-to-t from-mainGreen to-secondaryGreen font-blanka text-black uppercase lg:text-xl text-tiny py-2 px-4 rounded">
-        mINT YOURS NOW!
+        <button className="bg-gradient-to-t from-mainGreen to-secondaryGreen font-blanka text-black uppercase lg:text-xl text-tiny py-2 px-4 rounded tracking-15%">
+          mINT YOURS NOW!
         </button>
       </div>
       <div className="lg:w-1/2 relative z-0">
@@ -36,7 +36,6 @@ export default function About() {
         />
         <div className="absolute lg:top-32 lg:left-24 top-16 w-1/2 h-1/2 bg-gradient-to-r from-secondaryGreen to-mainGreen rounded-full opacity-50 z-0 blur-3xl"></div>
         <div className="absolute lg:top-36 lg:left-56 top-16 left-56 w-1/2 h-1/2 bg-gradient-to-r from-secondaryGreen to-mainGreen rounded-full opacity-50 z-0 blur-3xl"></div>
-
       </div>
     </div>
   );

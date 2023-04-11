@@ -6,10 +6,10 @@ const Token = ({TokenomicsRef}) => {
   };
   return (
     <div className="bg-gradient-to-l from-mainGray to-secondaryGray text-white font-sans my-2 shadow-lg px-8 py-20 w-full text-center">
-      <h4 className="lg:text-base text-tiny font-normal mb-2 uppercase">
+      <h4 className="lg:text-base text-tiny font-normal mb-2 uppercase tracking-3.26">
         INVEST IN THE FUTURE
       </h4>
-      <h2 className="lg:text-6xl text-3.75xl font-semibold uppercase font-blanka mb-6">
+      <h2 className="lg:text-6xl text-3.75xl font-semibold uppercase font-blanka mb-6 tracking-5.91">
         the $dope token
       </h2>
       <p className="lg:text-base text-xs font-normal mb-6">

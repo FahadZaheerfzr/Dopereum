@@ -5,7 +5,7 @@ import Svgroad from "../assets/roadmap.svg";
 export default function RoadMap() {
   return (
     <div className="bg-radial-gradient3 text-white text-center py-16 mt-24 font-sans overflow-x-hidden overflow-y-hidden">
-      <div className="font-blanka text-3.75xl lg:text-5xl uppercase mb-8">
+      <div className="font-blanka text-3.75xl lg:text-5xl uppercase mb-8 tracking-5.91">
         Roadmap
       </div>
       <div className="mb-8">
@@ -20,11 +20,11 @@ export default function RoadMap() {
               style={{ marginLeft: "160px" }}
             >
               <div className="ml-5">
-                <p className="uppercase text-xxs text-gray-300">
+                <p className="uppercase text-xxs text-gray-300 font-catamaran">
                   APRIL 15, 2019
                 </p>
                 <p className="text-tiny font-semibold">Phase 1</p>
-                <ul className="text-xs font-normal">
+                <ul className="text-xs font-normal list-disc">
                   <li>
                     Establish and expand the community in preparation for launch
                   </li>
@@ -38,9 +38,9 @@ export default function RoadMap() {
               style={{ marginLeft: "530px" }}
             >
               <div className="ml-5">
-                <p className="uppercase text-xxs text-gray-300">May 15, 2019</p>
+                <p className="uppercase text-xxs text-gray-300 font-catamaran">May 15, 2019</p>
                 <p className="text-tiny font-semibold">Phase 3</p>
-                <ul className="text-xs font-normal">
+                <ul className="text-xs font-normal list-disc">
                   <li>Token deployment</li>
                   <li>Presale</li>
                   <li>Stealth launch of the token</li>
@@ -56,9 +56,9 @@ export default function RoadMap() {
               style={{ marginLeft: "900px" }}
             >
               <div className="ml-5">
-                <p className="uppercase text-xxs text-gray-300">Oct 01, 2019</p>
+                <p className="uppercase text-xxs text-gray-300 font-catamaran">Oct 01, 2019</p>
                 <p className="text-tiny font-semibold">Phase 5</p>
-                <ul className="text-xs font-normal">
+                <ul className="text-xs font-normal list-disc">
                   <li>Launch of a huge NFT series</li>
                   <li>
                     Implementation of a water program in areas of significant
@@ -104,11 +104,11 @@ export default function RoadMap() {
               style={{ marginLeft: "340px" }}
               >
               <div className="ml-5">
-                <p className="uppercase text-xxs text-gray-300">
+                <p className="uppercase text-xxs text-gray-300 font-catamaran">
                   APRIL 20, 2019
                 </p>
                 <p className="text-tiny font-semibold">Phase 2</p>
-                <ul className="text-xs font-normal">
+                <ul className="text-xs font-normal list-disc">
                   <li>Contract security audit</li>
                   <li>
                     Establish partnerships with relevant parties within the
@@ -125,11 +125,11 @@ export default function RoadMap() {
             >
               {" "}
               <div className="ml-5">
-                <p className="uppercase text-xxs text-gray-300">
+                <p className="uppercase text-xxs text-gray-300 font-catamaran">
                   July 01, 2019
                 </p>
                 <p className="text-tiny font-semibold">Phase 4</p>
-                <ul className="text-xs font-normal">
+                <ul className="text-xs font-normal list-disc">
                   <li>
                     Attend fairs and conferences to further promote the project
                   </li>
@@ -152,9 +152,9 @@ export default function RoadMap() {
               className="w-80 h-44 border-l border-dashed absolute "
               style={{ marginLeft: "1070px" }}
               >              <div className="ml-5">
-                <p className="uppercase text-xxs text-gray-300">Nov 03, 2019</p>
+                <p className="uppercase text-xxs text-gray-300 font-catamaran">Nov 03, 2019</p>
                 <p className="text-tiny font-semibold">Phase 6</p>
-                <ul className="text-xs font-normal">
+                <ul className="text-xs font-normal list-disc">
                   <li>Partnership with a top soil producer</li>
                   <li>Launch of staking pools</li>
                   <li>Launch on a centralized exchange (CEX)</li>

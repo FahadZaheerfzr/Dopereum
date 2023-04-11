@@ -33,18 +33,18 @@ export default function PuffPass() {
       </div>
 
       {/* Right half */}
-      <div className="lg:w-[55%] bg-gradient-to-b lg:bg-gradient-to-r from-mainGreen to-secondaryGreen p-20 py-32 font-sans lg:h-full h-max relative overflow-y-visible overflow-x-clip">
+      <div className="lg:w-[55%] bg-gradient-to-b lg:bg-gradient-to-r from-mainGreen to-secondaryGreen p-20 lg:px-0 py-32 font-sans lg:h-full h-max relative overflow-y-visible overflow-x-clip text-center lg:text-left">
         <ReactSVG src={SvgLeaf3} className="lg:hidden block absolute left-10 -top-12 scale-125" />
-        <h2 className="text-xl font-normal mb-4 uppercase hidden lg:block">
-        exclusive benefits
+        <h2 className="text-xl font-normal mb-4 uppercase hidden lg:block tracking-3.26">
+        Enhanced shopping experience
         </h2>
-        <h2 className="text-tiny font-normal mb-4 uppercase block lg:hidden">
+        <h2 className="text-tiny font-normal mb-4 uppercase block lg:hidden tracking-1.5">
           Exclusive benefits
         </h2>
-        <h1 className="xl:text-6xl lg:text-[55px] tracking-[5.91px] text-3.75xl font-bold mb-4 font-blanka uppercase ">
+        <h1 className="xl:text-6xl lg:text-[55px] tracking-2.5 lg:tracking-[5.91px] text-3.75xl font-bold mb-4 font-blanka uppercase ">
           Dopereum's NFT PUFF PASS
         </h1>
-        <p className="mb-6 lg:text-tiny text-xs font-normal">
+        <p className="mb-6 xl:text-tiny lg:text-sm text-xs font-normal">
           Dopereum's NFT PUFF PASS offers exclusive benefits to users for a fee
           of 0.05 ETH. Enjoy cashback rewards from select e-stores and brands,
           special discounts from partners, exclusive redeemable NFTs, early
@@ -68,7 +68,7 @@ export default function PuffPass() {
           >
             +
           </button>
-          <button className="bg-gradient-to-r tracking-[3px] lg:text-xl text-sm font-blanka text-white uppercase from-mainGray to-secondaryGray font-bold py-4 px-6 rounded-r-lg ">
+          <button className="bg-gradient-to-r tracking-15% lg:text-xl text-sm font-blanka text-white uppercase from-mainGray to-secondaryGray font-bold py-4 px-6 rounded-r-lg ">
             Mint yours Now!
           </button>
         </div>

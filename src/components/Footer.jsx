@@ -10,21 +10,21 @@ import {
 
 const Footer = () => {
   return (
-    <div className="bg-mainGreen  text-black relative bg-radial-gradient ">
+    <div className="bg-mainGreen  text-black relative bg-gradient-to-l from-secondaryGreen to-mainGreen">
       <div className="max-w-screen-lg mx-auto py-10 px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3.75xl font-blanka font-bold text-center mb-8 uppercase z-150">
+        <h2 className="text-3.75xl font-blanka font-bold text-center mb-8 uppercase z-150 tracking-5.91">
           don’t miss out & stay updated
         </h2>
         <div className="max-w-xl mx-auto mb-8 z-150 items-center text-center">
-          <form className="flex flex-col space-y-5 lg:flex-row items-center w-screen">
+          <form className="flex flex-col lg:space-y-0 space-y-4 lg:flex-row items-center w-full lg:-ml-12">
             <input
               type="email"
               placeholder="Enter your email"
-              className="py-3 px-3 rounded-l-md flex-grow-1 bg-white bg-opacity-20 placeholder-white lg:text-xl text-tiny"
+              className="py-3 pl-3 pr-36 rounded-xl  lg:rounded-r-none flex-grow-1 bg-black bg-opacity-10 placeholder-white  font-catamaran text-tiny focus:outline-none"
             />
             <button
               type="submit"
-              className="bg-gradient-to-r from-mainGray to-secondaryGray font-blanka py-2 px-28 rounded-md lg:text-xl text-tiny text-white font-semibold flex-shrink-0"
+              className="bg-gradient-to-r from-mainGray to-secondaryGray font-blanka py-3 px-20 lg:py-2 lg:px-24 rounded-xl lg:text-xl text-tiny tracking-15% text-white font-normal flex-shrink-0 lg:-ml-2"
             >
               Subscribe
             </button>

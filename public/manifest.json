@@ -1,22 +1,11 @@
 {
   "short_name": "Dopereum - Revolutionizing Gardening with Blockchain Technology",
   "name": "Embrace Dopereum, the premier platform harnessing blockchain technology to transform the gardening industry. Our ecosystem encompasses a variety of inventive features, such as a decentralized marketplace, incentive-driven loyalty and referral programs, distinctive non-fungible tokens (NFTs), and rewarding staking prospects with our native $DOPE token. Join us in nurturing a more sustainable future with Dopereum.",
-  "homepage_url": "https://dopereum.com/",
   "icons": [
     {
-      "src": "logo.png",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/png"
-    },
-    {
-      "src": "logo.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "type": "image/x-icon"
     }
   ],
   "start_url": ".",

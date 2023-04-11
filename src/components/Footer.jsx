@@ -23,7 +23,7 @@ const Footer = () => {
               className="py-3 pl-3 w-[90%] lg:w-fit pr-36 rounded-xl  lg:rounded-r-none flex-grow-1 bg-black bg-opacity-10 placeholder-white  font-catamaran text-tiny focus:outline-none"
             />
             <button
-              type="submit"
+              type="button"
               className="bg-gradient-to-r from-mainGray to-secondaryGray font-blanka py-3 px-20 lg:py-2 lg:px-24 rounded-xl lg:text-xl text-tiny tracking-15% text-white font-normal flex-shrink-0 lg:-ml-2"
             >
               Subscribe

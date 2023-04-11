@@ -32,35 +32,35 @@ export default function Home() {
         MissionRef={MissionRef}
         RoadmapRef={RoadmapRef}
       />
-      <div className='h-screen w-full z-0' ref={AboutRef}>
-        <About/>
+      <div className='min-h-screen w-full z-0' ref={AboutRef}>
+        <About />
       </div>
-      <div className='z-50 lg:mt-128 xl:mt-24 overflow-clip'>
-      <Card/>
+      <div className='z-50 overflow-clip'>
+        <Card />
       </div>
       <div className='h-screen z-0' ref={PassRef}>
-        <PuffPass/>
+        <PuffPass />
       </div>
-      
-      <div ref={LoyaltyRef}>
-        <Loyalty/>
+
+      <div className='mt-2' ref={LoyaltyRef}>
+        <Loyalty />
       </div>
       <div ref={TokenRef}>
-        <Token TokenomicsRef={TokenomicsRef}/>
+        <Token TokenomicsRef={TokenomicsRef} />
       </div>
       <div ref={NFTRef}>
-        <Nft/>
+        <Nft />
       </div>
       <div ref={TokenomicsRef}>
-        <Tokenomics/>
+        <Tokenomics />
       </div>
       <div className='overflow-clip' ref={MissionRef}>
-        <Card2/>
+        <Card2 />
       </div>
       <div ref={RoadmapRef}>
-        <RoadMap/>
+        <RoadMap />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

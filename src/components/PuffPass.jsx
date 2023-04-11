@@ -19,7 +19,7 @@ export default function PuffPass() {
   return (
     <div className="flex-col flex-wrap lg:flex-row flex justify-center items-center h-max lg:h-full lg:mt-44  ">
       {/* Left half */}
-      <div className="lg:w-1/3 relative lg:h-full h-1/2 w-full overflow-hidden">
+      <div className="lg:w-[45%] relative lg:h-full h-1/2 w-full overflow-hidden">
         <img
           src="/images/grootSecond.png"
           alt="Your Image"
@@ -33,15 +33,15 @@ export default function PuffPass() {
       </div>
 
       {/* Right half */}
-      <div className="lg:w-2/3 bg-gradient-to-b lg:bg-gradient-to-r from-mainGreen to-secondaryGreen p-20 py-32 font-sans lg:h-full h-max relative overflow-y-visible overflow-x-clip">
-      <ReactSVG src={SvgLeaf3} className="lg:hidden block absolute left-10 -top-12 scale-125" />
+      <div className="lg:w-[55%] bg-gradient-to-b lg:bg-gradient-to-r from-mainGreen to-secondaryGreen p-20 py-32 font-sans lg:h-full h-max relative overflow-y-visible overflow-x-clip">
+        <ReactSVG src={SvgLeaf3} className="lg:hidden block absolute left-10 -top-12 scale-125" />
         <h2 className="text-xl font-normal mb-4 uppercase hidden lg:block">
-          Enhanced shopping experience
+        exclusive benefits
         </h2>
         <h2 className="text-tiny font-normal mb-4 uppercase block lg:hidden">
           Exclusive benefits
         </h2>
-        <h1 className="xl:text-6xl text-3.75xl font-bold mb-4 font-blanka uppercase ">
+        <h1 className="xl:text-6xl lg:text-[55px] tracking-[5.91px] text-3.75xl font-bold mb-4 font-blanka uppercase ">
           Dopereum's NFT PUFF PASS
         </h1>
         <p className="mb-6 lg:text-tiny text-xs font-normal">
@@ -59,7 +59,7 @@ export default function PuffPass() {
           >
             -
           </button>
-          <span className="bg-gradient-to-b from-mainGreen2 to-secondaryGreen2 text-gray-700 font-bold py-4 px-4 ">
+          <span className="bg-white bg-opacity-40 text-gray-700 font-bold py-4 px-6 ">
             {minted}
           </span>
           <button
@@ -68,7 +68,7 @@ export default function PuffPass() {
           >
             +
           </button>
-          <button className="bg-gradient-to-r lg:text-xl text-sm font-blanka text-white uppercase from-mainGray to-secondaryGray font-bold py-4 px-6 rounded-r-lg ">
+          <button className="bg-gradient-to-r tracking-[3px] lg:text-xl text-sm font-blanka text-white uppercase from-mainGray to-secondaryGray font-bold py-4 px-6 rounded-r-lg ">
             Mint yours Now!
           </button>
         </div>

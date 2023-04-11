@@ -29,7 +29,7 @@ const Token = ({TokenomicsRef}) => {
       <div className="justify-center items-center hover:cursor-pointer hidden lg:flex"
       onClick={scrollToTokenomics}
       >
-        <h3 className="text-sm text-mainGreen font-medium uppercase mr-2">Tokenomics</h3>
+        <h3 className="text-sm text-mainGreen font-medium uppercase mr-2  tracking-[3.26471px]">Tokenomics</h3>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"

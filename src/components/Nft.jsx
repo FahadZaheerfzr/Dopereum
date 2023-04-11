@@ -17,13 +17,13 @@ export default function Nft() {
 
       </div>
       {/* Left half */}
-      <div className="lg:w-8/12 bg-gradient-to-t lg:bg-gradient-to-r from-secondaryGreen to-mainGreen p-20 py-10 font-sans lg:h-screen relative">
+      <div className="lg:w-7/12 bg-gradient-to-t lg:bg-gradient-to-r from-secondaryGreen to-mainGreen p-20 py-10 font-sans lg:h-screen relative">
       <ReactSVG src={SvgLeaf3} className="lg:hidden block absolute left-10 -top-12 scale-125" />
 
-        <h1 className="xl:text-6xl text-3.6xl font-bold mb-4 font-blanka uppercase lg:pt-0 pt-36">
+        <h1 className="xl:text-6xl tracking-[5.91176px] text-3.6xl font-bold mb-4 font-blanka uppercase lg:pt-0 pt-36">
           Dopereum redeemable NFT{" "}
         </h1>
-        <p className="mb-6 xl:text-tiny lg:text-sm text-xs  font-normal ">
+        <p className="mb-6 2xl:text-tiny text-[#232323] lg:text-sm text-xs  font-normal ">
           Dopereum's redeemable NFT logic provides a unique way to buy
           real-world items. NFTs can be redeemed for products through our
           partner grow shop, offering convenient access to premium goods while
@@ -33,7 +33,7 @@ export default function Nft() {
           the marketplace. This ensures that those who buy NFTs needn't worry
           about price changes on the grow shop, as they own the item digitally
           and can redeem it within three months.  
-          <br></br>
+          <br/><br/>
           Our NFTs will be available on
           various platforms to reach different markets. With our grow shop
           partnership, we offer a secure and innovative way for users to
@@ -50,7 +50,7 @@ export default function Nft() {
       </div>
 
       {/* Right half */}
-      <div className="lg:w-4/12 relative h-screen overflow-hidden lg:block hidden">
+      <div className="lg:w-5/12 relative h-screen overflow-hidden lg:block hidden">
         <img
           src="/images/weed2.png"
           alt="Your Image"

@@ -16,7 +16,7 @@ export default function RoadMap() {
         <div className="relative w-11/12 mx-auto py-20 text-left overflow-x-scroll xl:overflow-x-hidden overflow-y-hidden scrollbar-thin scrollbar-thumb-secondaryGreen scrollbar-track-mainGray">
           <div className="flex lg:mb-10 xl:mb-0 h-52 relative">
             <div
-              className="w-96 h-52 border-l absolute "
+              className="w-96 h-52 border-l border-dashed absolute "
               style={{ marginLeft: "160px" }}
             >
               <div className="ml-5">
@@ -34,7 +34,7 @@ export default function RoadMap() {
               </div>
             </div>
             <div
-              className="w-80 h-52 border-l absolute"
+              className="w-80 h-52 border-l border-dashed absolute"
               style={{ marginLeft: "530px" }}
             >
               <div className="ml-5">
@@ -52,7 +52,7 @@ export default function RoadMap() {
               </div>
             </div>
             <div
-              className=" h-52 border-l absolute flex flex-wrap w-96"
+              className=" h-52 border-l border-dashed absolute flex flex-wrap w-96"
               style={{ marginLeft: "900px" }}
             >
               <div className="ml-5">
@@ -100,14 +100,14 @@ export default function RoadMap() {
           <div className="flex lg:mt-10 xl:mt-0">
             <div className="relative h-64">
             <div
-              className="w-80 h-44 border-l absolute "
+              className="w-80 h-44 border-l border-dashed absolute "
               style={{ marginLeft: "340px" }}
               >
               <div className="ml-5">
                 <p className="uppercase text-xxs text-gray-300">
                   APRIL 20, 2019
                 </p>
-                <p className="text-tiny font-semibold">Phase 1</p>
+                <p className="text-tiny font-semibold">Phase 2</p>
                 <ul className="text-xs font-normal">
                   <li>Contract security audit</li>
                   <li>
@@ -120,7 +120,7 @@ export default function RoadMap() {
               </div>
             </div>
             <div
-              className="w-80 h-44 border-l absolute "
+              className="w-80 h-44 border-l border-dashed absolute "
               style={{ marginLeft: "710px" }}
             >
               {" "}
@@ -149,7 +149,7 @@ export default function RoadMap() {
             </div>
 
             <div
-              className="w-80 h-44 border-l absolute "
+              className="w-80 h-44 border-l border-dashed absolute "
               style={{ marginLeft: "1070px" }}
               >              <div className="ml-5">
                 <p className="uppercase text-xxs text-gray-300">Nov 03, 2019</p>

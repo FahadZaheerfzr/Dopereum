@@ -3,12 +3,12 @@ import React from "react";
 export default function About() {
   return (
     <div className="flex flex-wrap justify-center items-center min-h-max lg:flex-row flex-col-reverse ">
-      <div className="lg:w-1/2 px-14 font-sans text-white lg:relative absolute top-1/2 z-50">
-        <h1 className="lg:text-6xl text-4.5xl font-blanka font-bold UPPERCASE">
+      <div className="lg:w-1/2 px-14 font-sans text-white lg:relative z-50">
+        <h1 className="lg:text-6xl text-4.5xl font-blanka font-bold UPPERCASE tracking-[7.09725px]">
           WElcome to doperium
         </h1>
         <h2 className="lg:text-xl text-xs font-normal mb-8 mt-4">
-          where your loyalty is rewarded!
+          Where your loyalty is rewarded!
         </h2>
         <p className=" mb-4 lg:text-tiny text-xs">
           Dopereum is a revolutionary currency that provides users with access
@@ -19,7 +19,7 @@ export default function About() {
           secure.
         </p>
         <div className="flex items-center mb-6">
-          <p className=" font-semibold lg:text-3.5xl text-sm mt-6">
+          <p className=" font-bold lg:text-3.5xl text-sm mt-6">
             Unlock Exclusive Rewards with Dopereum's NFT PUFF PASS
           </p>
         </div>

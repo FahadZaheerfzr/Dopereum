@@ -35,7 +35,7 @@ export default function About() {
           className="z-50 lg:ml-24 relative lg:scale-100 scale-200"
         />
         <div className="absolute lg:top-32 lg:left-24 top-16 w-1/2 h-1/2 bg-gradient-to-r from-secondaryGreen to-mainGreen rounded-full opacity-50 z-0 blur-3xl"></div>
-        <div className="absolute lg:top-36 lg:left-56 top-16 left-56 w-1/2 h-1/2 bg-gradient-to-r from-secondaryGreen to-mainGreen rounded-full opacity-50 z-0 blur-3xl"></div>
+        <div className="absolute lg:top-36 lg:left-56 top-16 left-32 w-1/2 h-1/2 bg-gradient-to-r from-secondaryGreen to-mainGreen rounded-full opacity-50 z-0 blur-3xl"></div>
       </div>
     </div>
   );

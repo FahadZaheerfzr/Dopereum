@@ -28,7 +28,7 @@ export default function PuffPass() {
         />
         <ReactSVG
           src={SvgLeaf}
-          className="absolute top-0 scale-125 -right-32 transform rotate-15 lg:block hidden"
+          className="absolute top-0 my-leaf2  transform rotate-15 lg:block hidden"
         />
       </div>
 

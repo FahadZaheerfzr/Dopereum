@@ -59,7 +59,7 @@ export default function Nft() {
         />
         <ReactSVG
           src={SvgLeaf}
-          className="absolute -top-10 scale-150 -left-44 transform -rotate-5"
+          className="absolute my-leaf -top-10 transform -rotate-5"
         />
       </div>
     </div>

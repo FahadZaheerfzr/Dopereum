@@ -35,3 +35,27 @@ code {
   font-style: normal;
 }
 
+
+
+.my-leaf{
+  left: -156px;
+  scale: 1.5;
+}
+
+
+.my-leaf2{
+  right: -128px;
+  scale: 1.5;
+}
+
+@media screen and (min-height : 800px) {
+  .my-leaf{
+    left: -250px;
+    scale: 2.5;
+  }
+
+  .my-leaf2{
+    right: -228px;
+    scale: 2.5;
+  }
+}

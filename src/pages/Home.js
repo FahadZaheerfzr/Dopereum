@@ -22,7 +22,7 @@ export default function Home() {
   const TokenomicsRef = useRef(null);
 
   return (
-    <div>
+    <div className='w-full'>
       <Header
         AboutRef={AboutRef}
         PassRef={PassRef}
@@ -35,7 +35,7 @@ export default function Home() {
       <div className='min-h-screen w-full z-0' ref={AboutRef}>
         <About />
       </div>
-      <div className='z-50 overflow-clip'>
+      <div className='z-50 w-full relative'>
         <Card />
       </div>
       <div className='h-screen z-0' ref={PassRef}>
@@ -54,7 +54,7 @@ export default function Home() {
       <div ref={TokenomicsRef}>
         <Tokenomics />
       </div>
-      <div className='overflow-clip' ref={MissionRef}>
+      <div className='lg:mt-4' ref={MissionRef}>
         <Card2 />
       </div>
       <div ref={RoadmapRef}>

@@ -43,7 +43,7 @@ const tokenList = [
 
 export default function Tokenomics() {
   return (
-    <div className="flex font-sans  flex-wrap lg:flex-row flex-col-reverse bg-gradient-to-t lg:bg-gradient-to-r from-secondaryGray to-mainGray text-white lg:justify-center lg:items-center  py-36">
+    <div className="flex font-sans  flex-wrap lg:flex-row flex-col-reverse bg-gradient-to-t lg:bg-gradient-to-r from-secondaryGray to-mainGray text-white lg:justify-center lg:items-center  pt-36 pb-16">
       {/* Left half */}
       <div className="lg:w-1/2 w-full bg0 p-10">
         <h1 className="lg:text-6xl text-3.75xl font-bold mb-6 font-blanka lg:block hidden tracking-5.91">

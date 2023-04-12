@@ -17,7 +17,7 @@ export default function PuffPass() {
   };
 
   return (
-    <div className="flex-col flex-wrap lg:flex-row flex justify-center items-center h-max lg:h-full lg:mt-44  ">
+    <div className="flex-col flex-wrap lg:flex-row flex justify-center items-center h-max lg:h-full lg:-mt-20 ">
       {/* Left half */}
       <div className="lg:w-[45%] relative lg:h-full h-1/2 w-full overflow-hidden">
         <img

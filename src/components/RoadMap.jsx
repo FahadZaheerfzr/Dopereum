@@ -4,7 +4,7 @@ import Svgroad from "../assets/roadmap.svg";
 
 export default function RoadMap() {
   return (
-    <div className="bg-radial-gradient3 text-white text-center py-16 mt-24 font-sans overflow-x-hidden overflow-y-hidden">
+    <div className="bg-radial-gradient3 text-white text-center py-16 lg:mt-0 font-sans overflow-x-hidden overflow-y-hidden">
       <div className="font-blanka text-3.75xl lg:text-5xl uppercase mb-8 tracking-5.91">
         Roadmap
       </div>

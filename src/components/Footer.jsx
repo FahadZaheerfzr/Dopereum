@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   FaTwitter,
   FaFacebookF,
@@ -9,6 +9,8 @@ import {
 } from "react-icons/fa";
 
 const Footer = () => {
+  const [email, setEmail] = useState("");
+
   return (
     <div className="bg-mainGreen  text-black relative bg-gradient-to-l from-secondaryGreen to-mainGreen">
       <div className="max-w-screen-lg mx-auto py-10 px-4 sm:px-6 lg:px-8">
@@ -20,7 +22,7 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className="py-3 pl-3 w-[90%] lg:w-fit pr-36 rounded-xl  lg:rounded-r-none flex-grow-1 bg-black bg-opacity-10 placeholder-white  font-catamaran text-tiny focus:outline-none"
+              className="py-3 pl-3 w-[90%] text-white lg:w-fit pr-36 rounded-xl  lg:rounded-r-none flex-grow-1 bg-black bg-opacity-10 placeholder-white  font-catamaran text-tiny focus:outline-none"
             />
             <button
               type="button"

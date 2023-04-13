@@ -26,6 +26,11 @@ export default function About() {
         <button className="bg-gradient-to-t from-mainGreen to-secondaryGreen font-blanka text-black uppercase lg:text-xl text-tiny py-2 px-4 rounded tracking-15%">
           mINT YOURS NOW!
         </button>
+        <a target="_blank" href="https://dopereum.com/Whitepaper.pdf">
+        <button className="bg-gradient-to-t mt-4 lg:mt-0 lg:ml-5 from-mainGray to-secondaryGray font-blanka text-white uppercase lg:text-xl text-tiny py-2 px-4 rounded tracking-15%">
+          Whitepaper
+        </button>
+        </a>
       </div>
       <div className="lg:w-1/2 relative z-0">
         {/* blured circles */}

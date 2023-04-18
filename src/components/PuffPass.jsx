@@ -15,6 +15,9 @@ export default function PuffPass() {
       setMinted(minted - 1);
     }
   };
+  const handleClick = () => {
+    alert("Minting will be available from 4/20/2023. Only Whitelisted wallets can mint");
+  };
 
   return (
     <div className="flex-col flex-wrap lg:flex-row flex justify-center items-center h-max lg:h-full lg:-mt-20 ">
@@ -68,7 +71,7 @@ export default function PuffPass() {
           >
             +
           </button>
-          <button className="bg-gradient-to-r tracking-15% lg:text-xl text-sm font-blanka text-white uppercase from-mainGray to-secondaryGray font-bold py-4 px-6 rounded-r-lg ">
+          <button className="bg-gradient-to-r tracking-15% lg:text-xl text-sm font-blanka text-white uppercase from-mainGray to-secondaryGray font-bold py-4 px-6 rounded-r-lg " onClick={handleClick}>
             Mint yours Now!
           </button>
         </div>

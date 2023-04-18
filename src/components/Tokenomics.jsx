@@ -131,9 +131,9 @@ export default function Tokenomics() {
             </span>
           </div>
           <div className="lg:hidden block">
-          <h1 className="lg:text-6xl text-3.75xl font-bold mb-6 font-blanka tracking-5.91">
-          Tokenomics
-        </h1>
+            <h1 className="lg:text-6xl text-3.75xl font-bold mb-6 font-blanka tracking-5.91">
+              Tokenomics
+            </h1>
             <div className="relative h-96  max-w-sm mx-auto">
               <ReactSVG
                 src={chartSvg}
@@ -174,31 +174,31 @@ export default function Tokenomics() {
               >
                 5%
               </span>
-            <span
+              <span
                 className="absolute  text-black lg:text-2xl text-xs font-semibold"
                 style={{ top: "200px", left: "230px" }}
-            >
-              9%
-            </span>
-            <span
-              className="absolute  text-white lg:text-2xl text-xs font-semibold"
-              style={{ top: "220px", left: "189px" }}
-            >
-              10%
-            </span>
-            <span
-              className="absolute  text-white lg:text-2xl text-xs font-semibold"
-              style={{ top: "200px", left: "120px" }}
-            >
-              25%
-            </span>
-            <span
-              className="absolute  text-white lg:text-2xl text-xxs font-bold"
-              style={{ top: "150px", left: "145px" }}
-            >
-              Total Supply <br></br>
-              10,000,000
-            </span>
+              >
+                9%
+              </span>
+              <span
+                className="absolute  text-white lg:text-2xl text-xs font-semibold"
+                style={{ top: "220px", left: "189px" }}
+              >
+                10%
+              </span>
+              <span
+                className="absolute  text-white lg:text-2xl text-xs font-semibold"
+                style={{ top: "200px", left: "120px" }}
+              >
+                25%
+              </span>
+              <span
+                className="absolute  text-white lg:text-2xl text-xxs font-bold"
+                style={{ top: "150px", left: "145px" }}
+              >
+                Total Supply <br></br>
+                10,000,000
+              </span>
             </div>
           </div>
         </div>
@@ -206,8 +206,15 @@ export default function Tokenomics() {
           Tax Distribution
         </div>
         <div className=" lg:text-lg text-sm mt-4">
-          <div>Buy tax = 4% (1% Liq / 3% marketing)</div>
-          <div>Sell tax = 4% (1% Liq / 3% marketing)</div>
+          <div>Buy tax = 6% (3% Liq / 3% marketing)</div>
+          <div>Sell tax = 6% (3% Liq / 3% marketing)</div>
+        </div>
+        <div className=" lg:text-xs text-xxs mt-4">
+          <div>
+            {" "}
+            LP tax is increased for the first 72H of launch. After 72H, tax will
+            be lowered to 4% buy and sell tax
+          </div>
         </div>
       </div>
     </div>

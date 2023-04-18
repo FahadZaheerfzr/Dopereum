@@ -18,7 +18,7 @@ const Card2 = () => {
               engage in online commerce and create a community of loyal users on
               participating platforms. We strive to enhance the online shopping
               experience by rewarding users with $DOPE tokens for their loyalty
-              and referralsOur goal is to build strong partnerships with
+              and referrals. Our goal is to build strong partnerships with
               e-commerce and marketplace platforms, in order to drive growth and
               provide added value to their users. We aim to revolutionize the
               e-commerce landscape and bring exciting new opportunities to both

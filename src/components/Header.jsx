@@ -8,7 +8,8 @@ import {
   FaTelegramPlane,
   FaYoutube,
   FaTiktok,
-  FaDiscord,
+  FaMediumM,
+  FaInstagram
 } from "react-icons/fa";
 
 export default function Header(props) {
@@ -151,40 +152,40 @@ export default function Header(props) {
                 </button>
                 <div className="flex justify-center mb-8">
                   <a
-                    href="#"
+                    href="https://twitter.com/dopereumtoken"
                     className="text-white text-base p-2 bg-white bg-opacity-20 mx-2 rounded-md"
                   >
                     <FaTwitter />
                   </a>
                   <a
-                    href="#"
+                    href="https://instagram.com/dopereum"
                     className="text-white text-base p-2 bg-white bg-opacity-20 mx-2 rounded-md"
                   >
-                    <FaFacebookF />
+                    <FaInstagram />
                   </a>
                   <a
-                    href="#"
+                    href="https://t.me/dopereum"
                     className="text-white text-base p-2 bg-white bg-opacity-20 mx-2 rounded-md"
                   >
                     <FaTelegramPlane />
                   </a>
                   <a
-                    href="#"
+                    href="https://youtube.com/@Dopereum"
                     className="text-white text-base p-2 bg-white bg-opacity-20 mx-2 rounded-md"
                   >
                     <FaYoutube />
                   </a>
                   <a
-                    href="#"
+                    href="https://www.tiktok.com/@dopereum"
                     className="text-white text-base p-2 bg-white bg-opacity-20 mx-2 rounded-md"
                   >
                     <FaTiktok />
                   </a>
                   <a
-                    href="#"
+                    href="https://medium.com/@dopereumtoken"
                     className="text-white text-base p-2 bg-white bg-opacity-20 mx-2 rounded-md"
                   >
-                    <FaDiscord />
+                    <FaMediumM />
                   </a>
                 </div>
               </div>

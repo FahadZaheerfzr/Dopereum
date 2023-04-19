@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { ReactSVG } from "react-svg";
 import SvgLeaf from "../assets/leaf.svg";
 import SvgLeaf2 from "../assets/leaf2.svg";

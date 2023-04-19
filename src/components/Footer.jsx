@@ -64,12 +64,17 @@ const Footer = () => {
             Don’t hesitate to subscribe to latest news about Dopereum token as
             well as crucial financial knowledge to become successful investors
             globally
+            <br />
+            Email: dopereumtoken@gmail.com
           </p>
           <p className="text-xs mt-6 text-center block lg:hidden">
             Stay up to date with the latest news and insights in your field by
             subscribing to our newsletter. Don't miss out on exclusive content,
             special offers, and exciting announcements.
+            <br />
+            Email: dopereumtoken@gmail.com
           </p>
+          
         </div>
         <div className="flex justify-center mb-8">
           <a

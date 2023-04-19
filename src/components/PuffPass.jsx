@@ -16,7 +16,7 @@ export default function PuffPass() {
     }
   };
   const handleClick = () => {
-    alert("Minting will be available from 4/20/2023. Only Whitelisted wallets can mint");
+    alert("Minting will be available from 4/27/2023. Only Whitelisted wallets can mint");
   };
 
   return (

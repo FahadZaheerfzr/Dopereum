@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div className="flex flex-wrap justify-center items-center min-h-max lg:flex-row flex-col-reverse ">
-      <div className="lg:w-1/2 px-14 font-sans text-white lg:relative">
+      <div className="lg:w-1/2 px-14 font-sans text-white lg:relative z-50">
         <h1 className="lg:text-6xl text-4.5xl font-blanka font-bold UPPERCASE tracking-[7.09725px]">
           Welcome to doperium
         </h1>
@@ -16,11 +16,11 @@ export default function About() {
           e-commerce stores and private label brands, offering discounts,
           rewards, and free product drops. Our innovative NFT technology
           introduces a new way of shopping online that is both seamless and
-          secure.<br></br>
+          secure.
+          <br/>
+          Contract address: 0x9D024AE29114b7C11843312877d58B9939F6aeB2
+          <br/>
         </p>
-          <span className="mt-2 text-xs">
-            Contract address:  0x9D024AE29114b7C11843312877d58B9939F6aeB2           
-          </span>
         <div className="flex items-center mb-6">
           <p className=" font-bold lg:text-3.5xl text-sm mt-6">
             Unlock Exclusive Rewards with Dopereum's NFT PUFF PASS
@@ -30,12 +30,12 @@ export default function About() {
           MINT YOURS NOW!
         </button>
         <a target="_blank" href="https://dopereum.com/Whitepaper.pdf">
-          <button className="bg-gradient-to-t mt-4 lg:mt-0 lg:ml-5 from-mainGray to-secondaryGray font-blanka text-white uppercase lg:text-xl text-tiny py-2 px-4 rounded tracking-15%">
-            Whitepaper
-          </button>
+        <button className="bg-gradient-to-t mt-4 ml-3 lg:mt-0 lg:ml-5 from-mainGray to-secondaryGray font-blanka text-white uppercase lg:text-xl text-tiny py-2 px-4 rounded tracking-15%">
+          Whitepaper
+        </button>
         </a>
       </div>
-      <div className="lg:w-1/2 relative z-50">
+      <div className="lg:w-1/2 relative z-0">
         {/* blured circles */}
         <img
           src="/images/grootFirst.png"

@@ -4,7 +4,7 @@ export const networkConfig = {
   readOnlyChainId: Mainnet.chainId,
   autoConnect: true,
   readOnlyUrls: {
-    [Mainnet.chainId]: Mainnet.rpcUrl,
+    [Mainnet.chainId]:"https://rpc.ankr.com/eth",
   },
   networks: [Mainnet],
   noMetamaskDeactivate: true,

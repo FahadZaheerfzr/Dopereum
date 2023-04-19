@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div className="flex flex-wrap justify-center items-center min-h-max lg:flex-row flex-col-reverse ">
-      <div className="lg:w-1/2 px-14 font-sans text-white lg:relative -z-50">
+      <div className="lg:w-1/2 px-14 font-sans text-white lg:relative">
         <h1 className="lg:text-6xl text-4.5xl font-blanka font-bold UPPERCASE tracking-[7.09725px]">
           Welcome to doperium
         </h1>

@@ -1,10 +1,11 @@
-import { Mainnet } from '@usedapp/core'
+import { BSCTestnet, Mainnet } from '@usedapp/core'
 
 export const networkConfig = {
   readOnlyChainId: Mainnet.chainId,
   autoConnect: true,
   readOnlyUrls: {
     [Mainnet.chainId]:"https://rpc.ankr.com/eth",
+    // [BSCTestnet.chainId]: BSCTestnet.rpcUrl,
   },
   networks: [Mainnet],
   noMetamaskDeactivate: true,

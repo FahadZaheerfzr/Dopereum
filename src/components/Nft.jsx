@@ -10,7 +10,7 @@ export default function Nft() {
         <div className="lg:w-1/3 relative h-1/2 overflow-hidden lg:hidden">
         <img
           src="/images/weed2.png"
-          alt="Your Image"
+          alt="weed"
           className="max-w-full"
           style={{ width: "100%", height: "100%" }}
         />
@@ -53,7 +53,7 @@ export default function Nft() {
       <div className="lg:w-5/12 relative h-screen overflow-hidden lg:block hidden">
         <img
           src="/images/weed2.png"
-          alt="Your Image"
+          alt="weed"
           className="max-w-full mb-10 min-w-full h-full object-cover"
           style={{ width: "100%", height: "100%" }}
         />

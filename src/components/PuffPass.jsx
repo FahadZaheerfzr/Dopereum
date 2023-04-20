@@ -4,9 +4,17 @@ import { ReactSVG } from "react-svg";
 import SvgLeaf from "../assets/leaf.svg";
 import SvgLeaf2 from "../assets/leaf2.svg";
 import SvgLeaf3 from "../assets/leaf3.svg";
+import { useEthers } from "@usedapp/core";
+import { useModal } from "react-simple-modal-provider";
+import { ethers } from "ethers";
+import { DOPE_PUFF } from "../config/constants";
+import DOPE_ABI from "../config/abi/DopePuffPassABI.json";
 
 export default function PuffPass() {
+  const {account} = useEthers();
   const [minted, setMinted] = useState(1);
+  const { open: openModal } = useModal("ConnectionModal");
+
   const handlePlus = () => {
     setMinted(minted + 1);
   };
@@ -15,9 +23,36 @@ export default function PuffPass() {
       setMinted(minted - 1);
     }
   };
-  const handleClick = () => {
-    alert("Minting will be available from 4/27/2023. Only Whitelisted wallets can mint");
+  const handleClick = () => {    
+    const today = new Date();
+    if (today.getDate() === 27 && today.getMonth() === 3 && today.getFullYear() === 2023) {
+      mint();
+    } else {
+      mint();
+    }
   };
+
+
+  const mint = async () => {
+    if(!account){
+      openModal();
+      return;
+    }
+
+    const provider = new ethers.providers.Web3Provider(window.ethereum);
+    const signer = provider.getSigner();
+    const contract = new ethers.Contract(DOPE_PUFF, DOPE_ABI, signer);
+
+    const mintAmount =  await contract.mintPriceInWei();
+    const mintedAmount = ethers.utils.formatEther(mintAmount) * minted;
+
+    await contract.mint(minted, {value: ethers.utils.parseEther(mintedAmount.toString())}).then((tx) => {
+      console.log(tx);
+    }).catch((err) => {
+      console.log(err.message);
+    })
+
+  }
 
   return (
     <div className="flex-col flex-wrap lg:flex-row flex justify-center items-center h-max lg:h-full lg:-mt-20 ">
@@ -25,7 +60,7 @@ export default function PuffPass() {
       <div className="lg:w-[45%] relative lg:h-full h-1/2 w-full overflow-hidden">
         <img
           src="/images/grootSecond.png"
-          alt="Your Image"
+          alt="groot"
           style={{ width: "100%", height: "100%" }}
           className="max-w-full"
         />

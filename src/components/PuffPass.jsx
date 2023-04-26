@@ -24,14 +24,8 @@ export default function PuffPass() {
     }
   };
   const handleClick = () => {    
-    const today = new Date();
-    if (today.getDate() === 27 && today.getMonth() === 3 && today.getFullYear() === 2023) {
       mint();
-    } else {
-      mint();
-    }
   };
-
 
   const mint = async () => {
     if(!account){

@@ -48,6 +48,9 @@ export default function Header(props) {
     deactivate();
   };
 
+  const toLink = (link) => {
+    window.open(link, "_blank");
+  };
   return (
     <div className="flex justify-between items-center font-sans py-7 px-14 text-white">
       <div className="text-left font-blanka lg:text-2xl sm:text-xxl uppercase">
@@ -59,6 +62,12 @@ export default function Header(props) {
           onClick={() => handleScroll(AboutRef)}
         >
           About
+        </p>
+        <p
+          className="uppercase hover:cursor-pointer tracking-1.5"
+          onClick={() => toLink("https://greenlives420.com/")}
+        >
+          Shop
         </p>
         <p
           className="uppercase hover:cursor-pointer tracking-1.5"
@@ -151,6 +160,12 @@ export default function Header(props) {
                 onClick={() => handleScroll(AboutRef)}
               >
                 About
+              </p>
+              <p
+                className="uppercase hover:cursor-pointer p-4 px-10 hover:bg-white hover:bg-opacity-20 tracking-1.5"
+                onClick={() => toLink("https://greenlives420.com/")}
+              >
+                Shop
               </p>
               <p
                 className="uppercase hover:cursor-pointer p-4 px-10 hover:bg-white hover:bg-opacity-20 tracking-1.5"

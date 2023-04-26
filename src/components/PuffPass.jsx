@@ -44,7 +44,7 @@ export default function PuffPass() {
       console.log(tx);
     }).catch((err) => {
       console.log(err.message);
-      alert("Transaction failed");
+      alert("Transaction Failed. Ensure your wallet is whitelisted and you have enough ETH to cover the transaction fee.");
     })
 
   }

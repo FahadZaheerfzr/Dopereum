@@ -44,6 +44,7 @@ export default function PuffPass() {
       console.log(tx);
     }).catch((err) => {
       console.log(err.message);
+      alert("Transaction failed");
     })
 
   }
